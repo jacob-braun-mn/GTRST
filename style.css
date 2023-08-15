@@ -18,23 +18,64 @@ a {
 
 .header {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     height: 30px;
-    min-height: 40px;
+    min-height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 32px;
+    padding: 24px 48px;
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 56px;
+    font-weight: 900;
 }
 
 .right-links {
     display: flex;
     gap: 12px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 80px;
+    padding: 64px;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero-text .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #bbbbbb;
+    background: #bbbbbb;
+}
+
+/* .hero-text .subtitle {
+    font-size: 24px;
+    font-weight: 200;
+    color: #f9faf8
+} */
+
+.hero-text p {
+    font-size: 18px;
+    color: rgb(178, 178, 178);
+}
+
+.hero img {
+    width: 400px;
 }
 
 
