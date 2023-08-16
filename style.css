@@ -149,3 +149,17 @@ hr {
     margin-bottom: 8px;
 }
 
+/* Quote */
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(178, 178, 178);
+    font-size: 14px;
+    background-color: #1F2937;
+    height: 36px;
+    min-height: 24px;
+}
