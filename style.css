@@ -1,8 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700');
 
 body {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -36,7 +38,7 @@ a {
 
 .logo {
     font-size: 56px;
-    font-weight: 900;
+    font-weight: 700;
     margin-right: 24px;
 }
 
@@ -101,7 +103,7 @@ hr {
 
 .card-container .title {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 500;
     color: #1f2937;
 }
 
@@ -129,7 +131,7 @@ hr {
 .card .card-title {
     color: #1f2937;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -149,3 +151,92 @@ hr {
     margin-bottom: 8px;
 }
 
+/* Quote */
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    flex: 1 1 auto;
+}
+
+.quote .quote-attr {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 500;
+    align-self: flex-end;
+    flex: 1 1 auto;
+}
+
+
+/* Call to Action */
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #1f498b;
+    border-radius: 8px;
+    padding: 24px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    margin: 48px 120px;
+}
+
+.cta .text {
+    min-width: 220px;
+}
+
+.cta .text .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.cta .text .subtitle {
+    font-size: 18px;
+    font-weight: 200;
+    color: #e5e7eb;
+}
+
+button {
+    cursor: pointer;
+    background-color: #1f498b;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(178, 178, 178);
+    font-size: 14px;
+    background-color: #1F2937;
+    height: 36px;
+    min-height: 24px;
+}
