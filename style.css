@@ -154,7 +154,6 @@ hr {
 /* Quote */
 .quote-container {
     background-color: #e5e7eb;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,7 +163,9 @@ hr {
 .quote {
     display: flex;
     flex-direction: column;
-    width: 500px
+    width: 500px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .quote .quote-text {
@@ -181,6 +182,51 @@ hr {
     font-weight: 500;
     align-self: flex-end;
     flex: 1 1 auto;
+}
+
+
+/* Call to Action */
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #1f498b;
+    border-radius: 8px;
+    padding: 24px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    margin: 48px 120px;
+}
+
+.cta .text {
+    min-width: 220px;
+}
+
+.cta .text .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.cta .text .subtitle {
+    font-size: 18px;
+    font-weight: 200;
+    color: #e5e7eb;
+}
+
+button {
+    cursor: pointer;
+    background-color: #1f498b;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px;
+    flex-shrink: 0;
 }
 
 /* Footer */
