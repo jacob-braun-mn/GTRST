@@ -1,3 +1,9 @@
+# README
+
+## What is this?
+
+This is a sample homepage using HTML and CSS, completed for [this assignment](https://www.theodinproject.com/lessons/foundations-landing-page#warning-about-looking-at-other-peoples-finished-project-code-before-you-have-completed-your-own) in the Odin Project course.
+
 ## Image Attributions:
 
 - Photo by Alejandro Angel Garcia: https://www.pexels.com/photo/close-up-photo-of-person-playing-electric-guitar-6580251/
